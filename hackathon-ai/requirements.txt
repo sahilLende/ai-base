@@ -1,0 +1,10 @@
+openai>=1.40
+anthropic>=0.34
+python-dotenv
+streamlit
+scikit-learn
+numpy
+pandas
+openpyxl
+pypdf
+pydantic

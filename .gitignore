@@ -1,0 +1,31 @@
+# === Python Virtual Environments & Packages ===
+.venv/
+venv/
+ENV/
+env/
+myhac/
+*.egg-info/
+*.pyc
+__pycache__/
+
+# === Local Vector Databases & Storage ===
+# Excludes local Chroma, Qdrant, and FAISS database folders
+.chroma/
+chroma_storage/
+qdrant_storage/
+faiss_index/
+*.index
+*.db
+*.sqlite
+
+# === Environment Variables & Secrets ===
+# Never commit your OpenAI API keys or DB passwords!
+.env
+.env.local
+.env.*.local
+
+# === System & IDE Junk ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
